@@ -1,0 +1,40 @@
+{
+  "name": "chatly-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "brace-expansion": "^2.1.6",
+    "cross-spawn": "^7.0.5",
+    "date-fns": "^3.6.0",
+    "glob": "^10.5.0",
+    "ip-address": "^10.7.0",
+    "lucide-react": "^1.54.0",
+    "minimatch": "^10.2.3",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.17",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "postcss": "^8.5.18",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
